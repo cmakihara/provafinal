@@ -21,9 +21,9 @@ public class Ex06 {
 	private static void calc(int res) {
 		int a =1;
 		int b =1;
-		System.out.println(a + ","+b);
+		System.out.print(a + ","+b);
 		while(b< res){
-			System.out.println(","+(a+b));
+			System.out.print(","+(a+b));
 			if(a > b)
 				b +=a;
 			else
